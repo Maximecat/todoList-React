@@ -1,14 +1,15 @@
 .App {
-  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 35px;
+  padding-bottom: 50px;
 }
